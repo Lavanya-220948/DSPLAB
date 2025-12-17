@@ -110,7 +110,7 @@ for i in range(rows1,0,-1):
         print(chr(j+65), end='')
     print()
 
-#15)
+#14)
 
 c=50
 h=30
@@ -120,6 +120,7 @@ for d in values:
     q= math.sqrt((2*c*int(d))/h)
     result3.append(str(round(q)))
 print(",".join(result3))
+
 
 
 
